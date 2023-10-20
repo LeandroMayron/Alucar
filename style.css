@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+header{
+    width: 100%;
+}
+
+.topo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 30px auto;
+}
+
+.topo span{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarja-banner{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    opacity: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+.conteudo-tarja{
+    width: 100%;    
+    margin: 0 auto;
+    position: absolute;
+    left: 1024px;
+    top: 135px;
+    z-index: 1;
+}
+
+.conteudo-tarja p {
+    color: #fff;
+    font-size: 26px;
+}
+
+.texto-titulo{
+    margin-left: 95px;
+}
+
+.area{
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.area h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.paragrafo{
+    width: 750px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+img{
+    width: 290px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+.paragrafo-lista p{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 26px;
+    border-left: 2px solid #000;
+}
+
+.banner-contato{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d11507;
+}
+
+.banner-contato h2{
+    width: 100%;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    background-color: #7a1b0c;
+}
+
+.formulario{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.conteudo-form{
+    margin: 5px 10px 20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px 0;
+}
+
+.botao{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 10px;
+    padding: 5px 0;
+    color: #fff;
+    background-color: #d11507;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d11507;
+    background-color: #e9e9e9;
+}
